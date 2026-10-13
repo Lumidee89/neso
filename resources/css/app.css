@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* NESO brand ramp (sequential blue, validated for CVD/contrast) */
+    --color-brand-50: #cde2fb;
+    --color-brand-100: #b7d3f6;
+    --color-brand-200: #9ec5f4;
+    --color-brand-300: #6da7ec;
+    --color-brand-400: #3987e5;
+    --color-brand-500: #2a78d6;
+    --color-brand-600: #256abf;
+    --color-brand-700: #184f95;
+    --color-brand-800: #104281;
+    --color-brand-900: #0d366b;
+
+    /* Status palette (fixed — never repurposed for series/identity) */
+    --color-status-good: #0ca30c;
+    --color-status-warning: #fab219;
+    --color-status-serious: #ec835a;
+    --color-status-critical: #d03b3b;
+
+    /* Ink & surfaces */
+    --color-ink-primary: #0b0b0b;
+    --color-ink-secondary: #52514e;
+    --color-ink-muted: #898781;
+    --color-surface: #fcfcfb;
+    --color-page: #f9f9f7;
+}
